@@ -13,9 +13,9 @@ self.addEventListener('install', evt => {
         caches.open(staticCacheName).then(cache => {
             console.log('caching shell assets');
             cache.addAll(assets);
-        }
-    )
-})
+        });
+    );
+});
 
 //activate service worker
 self.addEventListener('activate', evt => {

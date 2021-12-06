@@ -3,7 +3,7 @@ const assets = [
     'index.html',
     'js/app.js',
     'js/ui.js',
-    'css/style.css',
+    'css/style.css'
 ];
 //install service worker
 self.addEventListener('install', evt => {

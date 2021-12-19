@@ -7,7 +7,7 @@ const assets = [
     './js/app.js',
     './js/materialize.min.js',
     './img/dish.png',
-    'https:fonts.googleapis.com/icon?family=Material+Icons'
+    'https://fonts.googleapis.com/icon?family=Material+Icons'
 ];
 //install service worker
 self.addEventListener('install', evt => {
